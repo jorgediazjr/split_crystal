@@ -51,7 +51,7 @@ def euclidean_distance(ordered_pairs, distance=0.7):
                         for _y in ordered_pairs[current][x2]:
                             y2 = _y
                             q = [x2, y2]
-                            if find_distance(p, q) <= distance * distance:
+                            if find_distance(p, q) <= distance:
                                 pair = [p, q]
                                 close_pairs.append(pair)
                                 #if p[0] in closest_pairs:
