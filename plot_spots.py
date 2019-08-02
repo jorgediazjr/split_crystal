@@ -53,15 +53,16 @@ def euclidean_distance(ordered_pairs, distance=0.7):
                             q = [x2, y2]
                             if find_distance(p, q) <= distance:
                                 pair = [p, q]
+                                print("{} <---> {}".format(p, q))
                                 close_pairs.append(pair)
                                 #if p[0] in closest_pairs:
                                 #    closest_pairs[p[0]].append(p[1])
                                 #else:
                                 #    closest_pairs[p[0]] = [p[1]]
-                                if q[0] in closest_pairs:
-                                    closest_pairs[q[0]].append(q[1])
-                                else:
-                                    closest_pairs[q[0]] = [q[1]]
+                                #if q[0] in closest_pairs:
+                                #    closest_pairs[q[0]].append(q[1])
+                                #else:
+                                closest_pairs[q[0]] = [q[1]]
                                 midpoint_x = (p[0] + q[0]) / 2
                                 midpoint_y = (p[1] + q[1]) / 2
                                 midpoints[midpoint_x] = midpoint_y
@@ -128,27 +129,34 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
             x_vals.append(x)
             y_vals.append(y)
     ax.scatter(x_vals, y_vals, color='blue', s=0.1, alpha=.5)
-    ax.set_xlim([1150, 2050])
-    ax.set_ylim([1150, 2050])
+    #ax.set_xlim([1150, 2050])
+    #ax.set_ylim([1150, 2050])
     show()
 
 
-def write_closest_pairs(closest_pairs):
-    with open('C_SPOT.XDS', 'w+') as file:
+def write_closest_pairs(f, closest_pairs):
+    filename = f.split('/')[4] + '_SPOT.XDS'
+    with open(filename, 'w+') as f:
         for x in closest_pairs:
             for y in closest_pairs[x]:
-                file.write("{} {}\n".format(x, y))
+                f.write("{} {}\n".format(x, y))
 
 
 def main():
-    pairs = read_spot_file(os.getcwd() + '/SPOT.XDS')
-    ordered_pairs = collections.OrderedDict(sorted(pairs.items()))
-    ordered_pairs = add_index_to_dict(ordered_pairs)
-    close_pairs, midpoints, closest_pairs = euclidean_distance(ordered_pairs)
-    final_closest_points = find_closest_point_to_ea_point(midpoints)
-    plot_euclid_pairs(close_pairs, midpoints, pairs,
-                      closest_pairs, final_closest_points)
-    write_closest_pairs(closest_pairs)
+    files = []
+    with open(os.getcwd() + '/spot_files', 'r') as f:
+        for line in f:
+            files.append(line.replace('\n', ''))
+
+    for f in files:
+        pairs = read_spot_file(f)
+        ordered_pairs = collections.OrderedDict(sorted(pairs.items()))
+        ordered_pairs = add_index_to_dict(ordered_pairs)
+        close_pairs, midpoints, closest_pairs = euclidean_distance(ordered_pairs)
+        final_closest_points = find_closest_point_to_ea_point(midpoints)
+        plot_euclid_pairs(close_pairs, midpoints, pairs,
+                          closest_pairs, final_closest_points)
+        write_closest_pairs(f, closest_pairs)
 
 
 if __name__ == '__main__':
