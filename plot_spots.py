@@ -1,6 +1,8 @@
 #!/Users/jdiaz/miniconda3/bin/python
 
+import time
 from matplotlib.pyplot import show
+import matplotlib.pyplot as plt
 from matplotlib import collections as mc
 import pylab as pl
 import os
@@ -34,7 +36,42 @@ def find_distance(p, q):
     return dist
 
 
-def euclidean_distance(ordered_pairs, distance=0.7):
+def units_distance(p, q):
+    a = 1600
+    b = 1600
+    rad_0 = 50
+    rad_1 = 200
+    rad_2 = 600
+    rad_3 = 1000
+    rad_4 = 1400
+    rad_5 = 1800
+    point_1 = ((p[0] - a) * (p[1] - b))
+    point_2 = ((q[0] - a) * (q[1] - b))
+    if (point_1 < rad_0 * rad_0) and (point_2 < rad_0 * rad_0):
+        return 0.5
+    elif((point_1 > rad_0 * rad_0) and (point_2 > rad_0 * rad_0) and
+         (point_1 < rad_1 * rad_1) and (point_2 < rad_1 * rad_1)):
+        return 0.6
+    elif((point_1 > rad_1 * rad_1) and (point_2 > rad_1 * rad_1) and
+         (point_1 < rad_2 * rad_2) and (point_2 > rad_2 * rad_2)):
+        return 0.7
+    elif((point_1 > rad_2 * rad_2) and (point_2 > rad_2 * rad_2) and
+         (point_1 < rad_3 * rad_3) and (point_2 < rad_3 * rad_3)):
+        return 0.8
+    elif((point_1 > rad_3 * rad_3) and (point_2 > rad_3 * rad_3) and
+         (point_1 < rad_4 * rad_4) and (point_2 < rad_4 * rad_4)):
+        return 0.9
+    elif((point_1 > rad_4 * rad_4) and (point_2 > rad_4 * rad_4) and
+         (point_1 < rad_5 * rad_5) and (point_2 < rad_5 * rad_5)):
+        return 1.0
+    elif((point_1 > rad_5 * rad_5) and (point_2 > rad_5 * rad_5)):
+        return 1.1
+    else:
+        return 0.5
+
+
+def euclidean_distance(ordered_pairs, distance=0.5):
+    start_time = time.time()
     close_pairs = []        # these are pairs of points that are close together
     closest_pairs = dict()  # this has x,y values that are closest
     midpoints = dict()      # the midpoints between the close pairs
@@ -51,24 +88,22 @@ def euclidean_distance(ordered_pairs, distance=0.7):
                         for _y in ordered_pairs[current][x2]:
                             y2 = _y
                             q = [x2, y2]
-                            if find_distance(p, q) <= distance:
+                            dist = find_distance(p, q)
+                            distance = units_distance(p, q)
+                            if dist <= distance:
                                 pair = [p, q]
-                                print("{} <---> {}".format(p, q))
+                                print("{}\t<-- {:.2f} -->\t{}\tWITHIN {}".format(p, dist, q, distance))
                                 close_pairs.append(pair)
-                                #if p[0] in closest_pairs:
-                                #    closest_pairs[p[0]].append(p[1])
-                                #else:
-                                #    closest_pairs[p[0]] = [p[1]]
-                                #if q[0] in closest_pairs:
-                                #    closest_pairs[q[0]].append(q[1])
-                                #else:
                                 closest_pairs[q[0]] = [q[1]]
+                                # save the midpoints of the close pairs
                                 midpoint_x = (p[0] + q[0]) / 2
                                 midpoint_y = (p[1] + q[1]) / 2
                                 midpoints[midpoint_x] = midpoint_y
                         current += 1
                     else:
                         current += 1
+    end_time = time.time()
+    print("TIME TAKEN: {:.3}s".format(end_time - start_time))
     return close_pairs, midpoints, closest_pairs
 
 
@@ -92,7 +127,7 @@ def find_closest_point_to_ea_point(midpoints):
 
 
 def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
-                      final_closest_points):
+                      final_closest_points, f):
     # these are line segments between close pairs
     lc = mc.LineCollection(close_pairs,
                            colors=[(0, 0, 0, 1)],
@@ -128,9 +163,29 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
         for y in pairs[x]:
             x_vals.append(x)
             y_vals.append(y)
-    ax.scatter(x_vals, y_vals, color='blue', s=0.1, alpha=.5)
-    #ax.set_xlim([1150, 2050])
-    #ax.set_ylim([1150, 2050])
+    ax.scatter(x_vals, y_vals, color='blue', s=0.1, alpha=1)
+
+    # circles for different levels of distance
+    circle_5 = plt.Circle((1600, 1600), 1800, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_5)
+
+    circle_4 = plt.Circle((1600, 1600), 1400, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_4)
+
+    circle_3 = plt.Circle((1600, 1600), 1000, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_3)
+
+    circle_2 = plt.Circle((1600, 1600), 600, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_2)
+
+    circle_1 = plt.Circle((1600, 1600), 200, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_1)
+
+    circle_0 = plt.Circle((1600, 1600), 50, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_0)
+
+    ax.set_title(f.split('/')[4].upper())
+    fig.savefig(f.split('/')[4].upper() + '.png')
     show()
 
 
@@ -149,13 +204,20 @@ def main():
             files.append(line.replace('\n', ''))
 
     for f in files:
+        message = '''
+        *-----------------------*
+        *\tPROCESSING\t*
+        *\t{}\t\t*
+        *-----------------------*
+        '''
+        print(message.format(f.split('/')[4].upper()))
         pairs = read_spot_file(f)
         ordered_pairs = collections.OrderedDict(sorted(pairs.items()))
         ordered_pairs = add_index_to_dict(ordered_pairs)
         close_pairs, midpoints, closest_pairs = euclidean_distance(ordered_pairs)
         final_closest_points = find_closest_point_to_ea_point(midpoints)
         plot_euclid_pairs(close_pairs, midpoints, pairs,
-                          closest_pairs, final_closest_points)
+                          closest_pairs, final_closest_points, f)
         write_closest_pairs(f, closest_pairs)
 
 
