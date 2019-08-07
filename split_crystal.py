@@ -71,7 +71,6 @@ def units_distance(p, q):
 
 
 def euclidean_distance(ordered_pairs, distance=0.5):
-    start_time = time.time()
     close_pairs = []        # these are pairs of points that are close together
     closest_pairs = dict()  # this has x,y values that are closest
     midpoints = dict()      # the midpoints between the close pairs
@@ -102,8 +101,6 @@ def euclidean_distance(ordered_pairs, distance=0.5):
                         current += 1
                     else:
                         current += 1
-    end_time = time.time()
-    print("TIME TAKEN: {:.3}s".format(end_time - start_time))
     return close_pairs, midpoints, closest_pairs
 
 
@@ -166,37 +163,47 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
     ax.scatter(x_vals, y_vals, color='blue', s=0.1, alpha=1)
 
     # circles for different levels of distance
-    circle_6 = plt.Circle((1600, 1600), 1800, lw=0.3, color='b', fill=False)
+    circle_6 = plt.Circle((1600, 1600), 1800, lw=0.3, color='black', fill=False)
+    ax.add_artist(circle_6)
+
+    circle_5 = plt.Circle((1600, 1600), 1600, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_5)
 
-    circle_5 = plt.Circle((1600, 1600), 1600, lw=0.3, color='b', fill=False)
-    ax.add_artist(circle_5)
-
-    circle_4 = plt.Circle((1600, 1600), 1400, lw=0.3, color='b', fill=False)
+    circle_4 = plt.Circle((1600, 1600), 1400, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_4)
 
-    circle_3 = plt.Circle((1600, 1600), 1000, lw=0.3, color='b', fill=False)
+    circle_3 = plt.Circle((1600, 1600), 1000, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_3)
 
-    circle_2 = plt.Circle((1600, 1600), 600, lw=0.3, color='b', fill=False)
+    circle_2 = plt.Circle((1600, 1600), 600, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_2)
 
-    circle_1 = plt.Circle((1600, 1600), 200, lw=0.3, color='b', fill=False)
+    circle_1 = plt.Circle((1600, 1600), 200, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_1)
 
-    circle_0 = plt.Circle((1600, 1600), 50, lw=0.3, color='b', fill=False)
+    circle_0 = plt.Circle((1600, 1600), 50, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_0)
 
-    ax.set_title(f.split('/')[4].upper())
+    ax.set_title(f.split('/')[5].upper())
     show()
 
 
 def write_closest_pairs(f, closest_pairs):
-    filename = f.split('/')[4] + '_SPOT.XDS'
-    with open(filename, 'w+') as f:
-        for x in closest_pairs:
-            for y in closest_pairs[x]:
-                f.write("{} {}\n".format(x, y))
+    directory_to_write = '/CLOSE_SPOTS'
+    filename = f.split('/')[5] + '_SPOT.XDS'
+    if os.path.isdir(os.getcwd() + directory_to_write):
+        os.chdir(os.getcwd() + directory_to_write)
+        with open(filename, 'w+') as f:
+            for x in closest_pairs:
+                for y in closest_pairs[x]:
+                    f.write("{} {}\n".format(x, y))
+    else:
+        os.mkdir(os.getcwd() + directory_to_write)
+        os.chdir(os.getcwd() + directory_to_write)
+        with open(filename, 'w+') as f:
+            for x in closest_pairs:
+                for y in closest_pairs[x]:
+                    f.write("{} {}\n".format(x, y))
 
 
 def main():
@@ -212,12 +219,15 @@ def main():
         *\t{}\t\t*
         *-----------------------*
         '''
-        print(message.format(f.split('/')[4].upper()))
+        print(message.format(f.split('/')[5].upper()))
+        start_time = time.time()
         pairs = read_spot_file(f)
         ordered_pairs = collections.OrderedDict(sorted(pairs.items()))
         ordered_pairs = add_index_to_dict(ordered_pairs)
         close_pairs, midpoints, closest_pairs = euclidean_distance(ordered_pairs)
         final_closest_points = find_closest_point_to_ea_point(midpoints)
+        end_time = time.time()
+        print("TIME TAKEN: {:.3}s".format(end_time - start_time))
         plot_euclid_pairs(close_pairs, midpoints, pairs,
                           closest_pairs, final_closest_points, f)
         write_closest_pairs(f, closest_pairs)
