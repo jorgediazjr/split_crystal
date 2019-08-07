@@ -1,0 +1,2033 @@
+    1  git commit -m 'ENH: Updated README.md'
+    2  git push origin master
+    3  vi optimal_data_blend 
+    4  optimal_data_blend -h
+    5  vi good_clusters 
+    6  vi optimal_data_blend 
+    7  optimal_data_blend -h
+    8  vi README.md 
+    9  optimal_data_blend -h
+   10  vi README.md 
+   11  git add .
+   12  git commit -m 'ENH: Fixed README.md'
+   13  git push origin master
+   14  clr
+   15  mv random_clusters ./archive/
+   16  cd
+   17  ll -alh
+   18  ll minir
+   19  ln -sfn ~/mini_programs_blend/archive/random_clusters minir
+   20  ll
+   21  ll -alh
+   22  cat .joe_state 
+   23  ll
+   24  ll a-lh
+   25  ll -a
+   26  cat .bash_history 
+   27  clr
+   28  ll
+   29  cd mini_programs_blend/
+   30  ll
+   31  git status
+   32  git add .
+   33  git commit -m 'Put random_clusters in archive for now.'
+   34  git push origin master
+   35  clr
+   36  ll
+   37  clr
+   38  ll
+   39  mv good_clusters ./good_clusters_blend
+   40  cd
+   41  ll -alh
+   42  ln -sfn ~/mini_programs_blend/good_clusters_blend minig
+   43  ll -alh
+   44  clr
+   45  cd mini_programs_blend/
+   46  clr
+   47  git add .;git commit -m 'Changed name of good_clusters.';git push origin master
+   48  vi README.md 
+   49  git add .;git commit -m 'Changed name of good_clusters in README.';git push origin master
+   50  clr
+   51  vi README.md 
+   52  git add .;git commit -m 'Updated README.';git push origin master
+   53  vi README.md 
+   54  git add .;git commit -m 'Updated README.';git push origin master
+   55  cd
+   56  cd jad_june6_TLysin/all/
+   57  ll
+   58  rm -rf new_final_list_12_43_03/
+   59  good_clusters_blend -h
+   60  good_clusters_blend -d -m 10 -x 12
+   61  ~/minig
+   62  vi ~/minig
+   63  good_clusters_blend -d -m 10 -x 12
+   64  vi ~/minig
+   65  good_clusters_blend -d -m 10 -x 12
+   66  good_clusters_blend -h
+   67  good_clusters_blend -d -m 430
+   68  good_clusters_blend -d -m 20
+   69  good_clusters_blend -d -m 30
+   70  good_clusters_blend -d -m 35
+   71  good_clusters_blend -d -m 37
+   72  good_clusters_blend -d -m 40
+   73  good_clusters_blend -d -m 45
+   74  good_clusters_blend -d -m 50
+   75  good_clusters_blend -d -m 55
+   76  good_clusters_blend -d -m 65
+   77  good_clusters_blend -d -x 10
+   78  good_clusters_blend -d -x 2
+   79  good_clusters_blend -d
+   80  cat PROMISING_CLUSTERS.txt 
+   81  vi ~/minig
+   82  good_clusters_blend -d
+   83  vi ~/minig
+   84  good_clusters_blend -d
+   85  vi ~/minig
+   86  good_clusters_blend -d
+   87  vi ~/minig
+   88  good_clusters_blend
+   89  vi ~/minig
+   90  good_clusters_blend
+   91  good_clusters_blend -h
+   92  good_clusters_blend -s 2 -t 2.22
+   93  good_clusters_blend -s 2 -t 3
+   94  good_clusters_blend -s 2 -t 5
+   95  good_clusters_blend -s 2 -t 10
+   96  good_clusters_blend -s 2 -t 16
+   97  good_clusters_blend -s 2 -t 20
+   98  good_clusters_blend -s 2 -t 30
+   99  cat PROMISING_CLUSTERS.txt 
+  100  vi ~/minig
+  101  good_clusters_blend -s 2 -t 5
+  102  cat PROMISING_CLUSTERS.txt 
+  103  clr
+  104  good_clusters_blend -s 2
+  105  cat PROMISING_CLUSTERS
+  106  cat PROMISING_CLUSTERS.txt 
+  107  good_clusters_blend -t 2
+  108  cat PROMISING_CLUSTERS.txt 
+  109  ll
+  110  good_clusters_blend -h
+  111  clr
+  112  crystals_blend -h
+  113  vi ~/minic
+  114  crystals_blend -h
+  115  crystals_blend -r
+  116  vi ~/minic
+  117  crystals_blend -r
+  118  vi ~/minic
+  119  crystals_blend -r
+  120  cat CLUSTER_CRYSTAL.info 
+  121  clr
+  122  ll
+  123  crystals_blend -h
+  124  crystals_blend -c 1 2 3 4 5 6 7 8 9 10 20 30 40 50 60 70 80 90 100
+  125  cat CLUSTER_CRYSTAL.info 
+  126  crystals_blend -h
+  127  crystals_blend -m 400
+  128  cat CLUSTER_CRYSTAL.info 
+  129  crystals_blend -x 40
+  130  cat CLUSTER_CRYSTAL.info 
+  131  crystals_blend -h
+  132  clr
+  133  optimal_data_blend -h
+  134  optimal_data_blend -c 1 2 3 4 5 6 7 8 9 10 20 30 40 50 60 70 80 90 100
+  135  cd new_final_list_13_27_49/
+  136  cat original.dat 
+  137  cd ..
+  138  rm -rf new_final_list_13_27_49/
+  139  optimal_data_blend 
+  140  cd new_final_list_13_28_16/
+  141  cat original.dat 
+  142  cd
+  143  vi ~/minic
+  144  cd jad_june6_TLysin/all/
+  145  clr
+  146  optimal_data_blend -c 100
+  147  vi ~/minic
+  148  optimal_data_blend -c 100
+  149  vi ~/minic
+  150  optimal_data_blend -c 100
+  151  vi ~/minic
+  152  optimal_data_blend -c 100 1
+  153  optimal_data_blend -c 
+  154  optimal_data_blend -c 1
+  155  clr
+  156  vi ~/minic
+  157  optimal_data_blend -c 1
+  158  vi ~/minic
+  159  optimal_data_blend -h
+  160  optimal_data_blend -r
+  161  cd new_final_list_13_36_18/
+  162  ll
+  163  cat original.dat 
+  164  cd ..
+  165  rm -rf new_final_list_13_*
+  166  clr
+  167  ll
+  168  vi ~/minic
+  169  vi ~/minio
+  170  optimal_data_blend -c 1
+  171  cd new_final_list_13_38_45/
+  172  ll
+  173  cat original.dat 
+  174  cd ..
+  175  rm -rf new_final_list_13_38_45/
+  176  optimal_data_blend -c 434
+  177  cd new_final_list_13_39_13/
+  178  cat original.dat 
+  179  cd ..
+  180  rm -rf new_final_list_13_39_13/
+  181  ll
+  182  optimal_data_blend -c 1 50 100 150 200
+  183  cd new
+  184  cd new_final_list_13_40_14/
+  185  cat original.dat 
+  186  cd ..
+  187  optimal_data_blend -c 1 50
+  188  cd new_final_list_13_40_58/
+  189  cat original.dat 
+  190  cd .
+  191  cd ..
+  192  ll
+  193  cd
+  194  clr
+  195  cd jad_june6_TLysin/all/
+  196  vi ~/minio
+  197  optimal_data_blend -c 1 50
+  198  vi ~/minio
+  199  optimal_data_blend -c 1 50
+  200  vi ~/minio
+  201  optimal_data_blend -c 1 50
+  202  vi ~/minio
+  203  optimal_data_blend -c 1 50
+  204  vi ~/minio
+  205  optimal_data_blend -c 1 50
+  206  vi ~/minio
+  207  optimal_data_blend -c 1 50
+  208  vi ~/minio
+  209  optimal_data_blend -c 1 50
+  210  cd new_final_list_13_
+  211  rm -rf new_final_list_13_*
+  212  clr
+  213  optimal_data_blend -c 1 50
+  214  cd new_final_list_13_50_21/
+  215  cat original.dat 
+  216  cd ..
+  217  optimal_data_blend -c 1 50 100 150 200
+  218  cd new_final_list_13_50_35/
+  219  cat original.dat 
+  220  cd ..
+  221  rm -rf new_final_list_13_50_*
+  222  clr
+  223  ll
+  224  optimal_data_blend -r
+  225  cd new_final_list_13_51_09/
+  226  cat original.dat 
+  227  cd ..
+  228  ll
+  229  optimal_data_blend -h
+  230  optimal_data_blend 
+  231  cd new_final_list_13_51_
+  232  cd new_final_list_13_51_47/
+  233  cat original.dat 
+  234  clr
+  235  ll
+  236  cd ..
+  237  rm -rf new_final_list_13_51_*
+  238  clr
+  239  vi ~/minio
+  240  cd
+  241  cd mini_programs_blend/
+  242  clr
+  243  optimal_data_blend -h
+  244  vi README.md 
+  245  git add .; git commit -m 'ENH: Fixed readme and optimal_data_blend';git push origin master
+  246  clr
+  247  ll
+  248  git pull origin master
+  249  clr
+  250  cd mini_programs_blend/
+  251  ll
+  252  clr
+  253  git pull origin master
+  254  cd
+  255  cd yamtbx/
+  256  ll
+  257  cd yamtbx/
+  258  ll
+  259  cd dataproc/
+  260  ll
+  261  cd ..
+  262  ll
+  263  which kamo.multi_merge
+  264  which dials
+  265  clr
+  266  cd mini_programs_blend/
+  267  ll
+  268  git pull origin master
+  269  cd
+  270  cd ../..
+  271  cd
+  272  which h5toxds
+  273  which ccp4
+  274  which ccp4-7.0
+  275  echo $CCP4
+  276  which h5toXds
+  277  which h5ToXds
+  278  where eiger2cbf
+  279  which eiger2cbf
+  280  cd /usr/local/crys-local/ccp4-7.0/bin
+  281  ll
+  282  cd
+  283  wget http://dials.diamond.ac.uk/diamond_builds/dials-linux-x86_64.tar.xz
+  284  tar -xJf dials-linux-x86_64.tar.xz
+  285  ll
+  286  du -sh dials
+  287  du -sh dials-
+  288  du -sh
+  289  rm -rf dial
+  290  ll
+  291  rm -rf dials-installer-dev
+  292  du -sh dials-linux-x86_64.tar.xz 
+  293  rm dials-linux-x86_64.tar.xz 
+  294  ll
+  295  cd ..
+  296  find ./ -name 'libtbx'
+  297  find ./ -name 'libtbx.python'
+  298  cd
+  299  echo /home/hbernstein/dials > dials_location.txt
+  300  cat dials_location.txt 
+  301  cd /home/hbernstein/dials/
+  302  ll
+  303  cd build/
+  304  ll
+  305  cd bin
+  306  ll
+  307  find . -name 'kamo'
+  308  cd ..
+  309  cd mod
+  310  cd ../modules/
+  311  ll
+  312  kamo.test_installation
+  313  cd ..
+  314  ll
+  315  cd build/
+  316  ll
+  317  cd bin
+  318  ll
+  319  vi ~/.bashrc
+  320  lout
+  321  cd /home/hbernstein/dials/build/bin
+  322  ll
+  323  cd
+  324  cd yamtbx/
+  325  ll
+  326  cd
+  327  libtbx.configure yamtbx
+  328  cd /home
+  329  ll
+  330  cd tnguyen1/
+  331  ll
+  332  cd tools/
+  333  ll
+  334  du -sh dials-installer-dev/
+  335  cp dials-linux-x86_64.tar.xz ~/
+  336  cd
+  337  ll
+  338  tar -xvf dials-linux-x86_64.tar.xz 
+  339  ll
+  340  cd dia
+  341  cd dials-installer-dev
+  342  ll
+  343  lout
+  344  clr
+  345  ll
+  346  cd dials-in
+  347  ll -alh
+  348  which nxds
+  349  ll
+  350  cd June
+  351  rm -rf dials-installer-dev
+  352  rm dials-linux-x86_64.tar.xz 
+  353  ll
+  354  df -u
+  355  df -h
+  356  du -sh
+  357  du
+  358  clr
+  359  ll
+  360  cd June_6_data_
+  361  cd June_6_data_fastdp/
+  362  ll
+  363  cd ..
+  364  cd June_6_data_
+  365  cd June_6_data_nxds/
+  366  ll
+  367  cd ..
+  368  clr
+  369  cd ncdist/
+  370  ll
+  371  cd build/
+  372  ll
+  373  cd ..
+  374  ll
+  375  vi Cell.cpp
+  376  cd ..
+  377  ll
+  378  cd Sixth_june_results/
+  379  ll
+  380  cd fast_dp_output/
+  381  ll
+  382  cd r1_1/
+  383  ll
+  384  cd ..
+  385  cd r1_2/
+  386  ll
+  387  cd 16000
+  388  ll
+  389  cd ..
+  390  ll
+  391  cd r2_2/
+  392  ll
+  393  cd 0/
+  394  ll
+  395  cd ..
+  396  cd 50
+  397  ll
+  398  cd ..
+  399  ll
+  400  cd r3_1/
+  401  ll
+  402  cd 4000
+  403  ll
+  404  cat fast_dp.log 
+  405  cd ..
+  406  ll
+  407  cd
+  408  clr
+  409  ll
+  410  wget --help
+  411  curl -0L http://downloads.sf.net/cbflib/CBFlib-0.9.6.tar.gz
+  412  1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c
+  413  ll
+  414  clr
+  415  wget https://sourceforge.net/projects/cbflib/files/cbflib/CBFlib_0.9.6/CBFlib-0.9.6.tar.gz/download?use_mirror=phoenixnap
+  416  ll
+  417  rm download\?use_mirror\=phoenixnap 
+  418  wget http://downloads.sf.net/cbflib/CBFlib-0.9.6.tar.gz
+  419  ll
+  420  tar -xvf CBFlib-0.9.6.tar.gz 
+  421  ll
+  422  rm CBFlib-0.9.6.tar.gz 
+  423  clr
+  424  cd CBFlib-0.9.6/
+  425  ll
+  426  find . -name "iz3004.cif"
+  427  cd doc/
+  428  ll
+  429  vi style.css 
+  430  vi iz3004.cif 
+  431  cd ..
+  432  ll
+  433  cd
+  434  which cif2cbf
+  435  cd CBFlib-0.9.6/
+  436  ll
+  437  cd bin/
+  438  ll
+  439  clr
+  440  cd ..
+  441  ll
+  442  find . -name "cif2cbf"
+  443  make
+  444  make install
+  445  ll
+  446  find . -name "cif2cbf"
+  447  cd bin
+  448  pwd
+  449  vi ~/.bashrc
+  450  lout
+  451  ll
+  452  clr
+  453  which cif2cbf
+  454  cif2cbf -h
+  455  cif2cbf --help
+  456  xterm
+  457  cd CBFlib-0.9.6/
+  458  make test
+  459  ll
+  460  clr
+  461  cd doc
+  462  ll
+  463  mkdir testing_area
+  464  cp iz3004.cif ./testing_area/
+  465  cif2cbf -5w -i iz3004.cif -o file.h5
+  466  ll
+  467  rm file.h5 
+  468  cd testing_area/
+  469  ll
+  470  cif2cbf -5w -i iz3004.cif -o file.h5
+  471  ll
+  472  h5dump file.h5 
+  473  clr
+  474  ll
+  475  rm file.h5 
+  476  cd
+  477  cd fast_dp/
+  478  ll
+  479  git pull origin master
+  480  clr
+  481  ll
+  482  git status
+  483  git brnach
+  484  git branch
+  485  git checkout master
+  486  git pull origin master
+  487  clr
+  488  ll
+  489  python2
+  490  python3
+  491  which pip
+  492  clr
+  493  cd
+  494  clr
+  495  pip install future
+  496  python --version
+  497  pip --version
+  498  which conda
+  499  conda
+  500  clr
+  501  ipython
+  502  ipy
+  503  clr
+  504  ll
+  505  cd
+  506  clr
+  507  python
+  508  ipython
+  509  ll
+  510  du -sh
+  511  du -h
+  512  clr
+  513  cd.
+  514  cd ..c
+  515  cd ..
+  516  find ./ -name 'pip'
+  517  cd
+  518  vi ~/.bashrc
+  519  cd ./usr/local/crys-local/ccp4-7.0/lib/python2.7/site-packages/pip
+  520  cd /usr/local/crys-local/ccp4-7.0/lib/python2.7/site-packages/pip
+  521  ll
+  522  vi __main__.py
+  523  cd commands/
+  524  l
+  525  ll
+  526  vi install.py
+  527  cd
+  528  vi ~/.bashrc
+  529  lout
+  530  clr
+  531  ll
+  532  which pip
+  533  cd ..
+  534  ll
+  535  cd home/
+  536  ll
+  537  cd hbernstein/
+  538  ll
+  539  cd ..
+  540  cd usr/local/
+  541  ll
+  542  cd lib
+  543  ll
+  544  cd python
+  545  cd python2.7/
+  546  ll
+  547  cd site-packages/
+  548  ll
+  549  cd ..
+  550  cd dist-packages/
+  551  ll
+  552  cd ..
+  553  ll
+  554  cd ..
+  555  ll
+  556  cd bin
+  557  ll
+  558  cd ..
+  559  ll
+  560  cd crys-local/
+  561  ll
+  562  cd dozor_20160517_rev_nsls_ii_07Nov17/
+  563  ll
+  564  file dozor
+  565  which dozor
+  566  vi ~/.bashrc
+  567  cd ..
+  568  ll
+  569  cd edna
+  570  ll
+  571  cd ..
+  572  ll
+  573  clr
+  574  ll
+  575  cd bin
+  576  ll
+  577  cd ..
+  578  cd apache/
+  579  ll
+  580  cd apache/
+  581  ll
+  582  cd project_src/
+  583  ll
+  584  cd ..
+  585  ll
+  586  cd ..
+  587  ll
+  588  cd best/
+  589  ll
+  590  cd ..
+  591  ll
+  592  cd bin
+  593  ll
+  594  cd ..
+  595  ll
+  596  cd ccp4-7.0/
+  597  ll
+  598  clr
+  599  ll
+  600  cd dimple/
+  601  ll
+  602  file dimple
+  603  vi dimple
+  604  ll
+  605  vi ~/.bashrc
+  606  ll
+  607  vi main.py 
+  608  cd ..
+  609  ll
+  610  cd libexec/
+  611  ll
+  612  vi pip
+  613  vi ~/.bashrc
+  614  cd ..
+  615  ll
+  616  cd lib
+  617  ll
+  618  cd python2.7/
+  619  ll
+  620  vi argparse.py
+  621  cd ..
+  622  ll
+  623  cd ..
+  624  ll
+  625  cd bin
+  626  ll
+  627  vi ~/.bashrc
+  628  cd ..
+  629  ll
+  630  lout
+  631  clr
+  632  ll
+  633  which pip
+  634  pip install future
+  635  ll
+  636  python
+  637  python2
+  638  clr
+  639  ll
+  640  pip uninstall future
+  641  cd .pip
+  642  ll
+  643  cat pip.log 
+  644  cd
+  645  rm -rf .pip
+  646  ll -alh
+  647  cd share/
+  648  ll
+  649  cd
+  650  ll
+  651  cd bin
+  652  ll
+  653  cd
+  654  cd ..
+  655  ll
+  656  cd
+  657  ll
+  658  clr
+  659  ll
+  660  rm -rf bin
+  661  rm -rf lib
+  662  rm -rf share
+  663  ll
+  664  rm -rf include/
+  665  ll
+  666  clr
+  667  ll
+  668  cd Collins_executables/
+  669  ll
+  670  vi run_c4_1 
+  671  which fast_dp 
+  672  vi run_c4_1 
+  673  run-parts ./
+  674  ll
+  675  cd ..
+  676  cd Collins_Tests/
+  677  ll
+  678  cd c4_1/
+  679  ll
+  680  cd 1
+  681  ll
+  682  cd ..
+  683  ll
+  684  cd ..
+  685  find ./ -name 'fast_dip_unmerged.mtz'
+  686  find ./ -name 'fast_dp_unmerged.mtz'
+  687  find ./ -name 'fast_dp_unmerged.mtz' > original.dat
+  688  vi original.dat 
+  689  cd
+  690  mkdir collin_blend
+  691  cp Collins_Tests/original.dat ./collin_blend/
+  692  ll
+  693  rm jdiaz_Collins_
+  694  rm jdiaz_Collins_Tests_fast_dp.log 
+  695  ll
+  696  rm jdiaz_Collins_Tests_fast_dp.error 
+  697  rm jdiaz_Collins_Tests_fast_dp.mtz
+  698  ll
+  699  mv collin_blend/ ./jad_collins_blend
+  700  cd jad_collins_blend/
+  701  ll
+  702  blend -a original.dat 
+  703  vi original.dat 
+  704  cd
+  705  clr
+  706  ll
+  707  cd jad_june6_TLysin/
+  708  ll
+  709  cat mtz_names.dat 
+  710  clr
+  711  cd
+  712  clr
+  713  cd Collins_Tests/
+  714  ll
+  715  clr
+  716  find ./ -name 'XDS_ASCII.HKL'
+  717  find ./ -name 'XDS_ASCII.HKL' > original.dat
+  718  ll
+  719  vi original.dat 
+  720  cp original.dat ~/jad_collins_blend/
+  721  cd
+  722  cd col
+  723  cd jad_collins_blend/
+  724  ll
+  725  rm mtz_names.dat 
+  726  rm BLEND_KEYWORDS.dat 
+  727  blend -a original.dat 
+  728  cd /home/jdiaz/
+  729  cd Collins_Tests/
+  730  ll
+  731  cd c7_5/
+  732  ll
+  733  cd 1/
+  734  ll
+  735  vi XDS_ASCII.HKL 
+  736  cd
+  737  clr
+  738  cd zero_fast_dp/
+  739  ll
+  740  cd bin/
+  741  l
+  742  ll
+  743  which H5ToXds
+  744  cd ..
+  745  ll
+  746  cd lib
+  747  ll
+  748  vi cell_spacegroup.py 
+  749  vi image_names.py 
+  750  vi image_readers.py 
+  751  vi __init__.py 
+  752  vi output.py 
+  753  vi pointless_reader.py 
+  754  vi run_job.py 
+  755  vi test_cell_spacegroup.py 
+  756  rm test_cell_spacegroup.py 
+  757  vi xds_reader.py 
+  758  vi xds_writer.py 
+  759  clr
+  760  ll
+  761  cd ..
+  762  ll
+  763  cd src
+  764  ll
+  765  git branch
+  766  vi autoindex.py 
+  767  vi header2edna_xml.py 
+  768  vi integrate.py 
+  769  vi logger.py 
+  770  vi merge.py 
+  771  vi pointgroup.py 
+  772  vi ~/.exrc
+  773  vi pointgroup.py 
+  774  vi scale.py 
+  775  vi fast_dp.py 
+  776  vi fast_rdp.py 
+  777  git status
+  778  cd ..
+  779  git status
+  780  git add .
+  781  git commit -m 'ENH: Fixed spacing. -JD'
+  782  git push origin master
+  783  clr
+  784  ll
+  785  grep -irn "__future__" ./
+  786  vi src/fast_dp.py 
+  787  clr
+  788  mkdir Matrix
+  789  cd Matrix/
+  790  which python > matrix_practice.py
+  791  vim matrix_practice.py 
+  792  ll
+  793  vi matrix_practice.py 
+  794  chmod +x matrix_practice.py 
+  795  ./matrix_practice.py 
+  796  ll
+  797  vi matrix_practice.py 
+  798  ./matrix_practice.py 
+  799  vi matrix_practice.py 
+  800  ./matrix_practice.py 
+  801  cat matrix_practice.py 
+  802  vi matrix_practice.py 
+  803  ./matrix_practice.py 
+  804  vi matrix_practice.py 
+  805  ./matrix_practice.py 
+  806  vi matrix_practice.py 
+  807  ./matrix_practice.py 
+  808  vi matrix_practice.py 
+  809  clr
+  810  vi matrix_practice.py 
+  811  ./matrix_practice.py 
+  812  vi matrix_practice.py 
+  813  ./matrix_practice.py 
+  814  vi matrix_practice.py 
+  815  cd
+  816  clr
+  817  ll
+  818  cd fast_dp/
+  819  ll
+  820  cd src/
+  821  ll
+  822  vi autoindex.py
+  823  head autoindex.py
+  824  vi fast_dp.py 
+  825  vi fast_rdp.py 
+  826  vi header2edna_xml.py 
+  827  vi integrate.py
+  828  vi logger.py
+  829  vi merge.py
+  830  vi pointgroup.py
+  831  vi scale.py
+  832  cd ../lib/
+  833  ll
+  834  vi cell_spacegroup.py
+  835  vi image_names.py
+  836  vi image_readers.py
+  837  vi output.py
+  838  vi pointless_reader.py
+  839  vi run_job.py
+  840  vi xds_reader.py
+  841  vi xds_writer.py
+  842  cd ..
+  843  git status
+  844  git branch
+  845  git checkout unit_tests
+  846  git stash
+  847  git checkout unit_tests
+  848  git branch
+  849  git status
+  850  git checkout -b import
+  851  git stash --help
+  852  git stash pop
+  853  git status
+  854  git add .
+  855  git commit -m 'ENH: Added __future__ import statement.'
+  856  git push origin master
+  857  git push origin import
+  858  clr
+  859  cd
+  860  ll
+  861  cd Collins_Tests/
+  862  ll
+  863  find ./ -name 'timelog'
+  864  32 * 13.12
+  865  expr 32 * 13.12
+  866  python
+  867  clr
+  868  cd
+  869  cd fast_dp/
+  870  which fast_dp 
+  871  ll
+  872  clr
+  873  cd
+  874  cd /GPFS/CENTRAL/xf17id1/hbernstein/ncbfs/
+  875  l
+  876  ll
+  877  cd fdp/
+  878  ll
+  879  cd fast_dp_dir/
+  880  ll
+  881  cd ..
+  882  ll
+  883  cd level1/
+  884  ll
+  885  cd level2/
+  886  l
+  887  ll
+  888  cd level3/
+  889  ll
+  890  cd level4/
+  891  ll
+  892  cd data/
+  893  ll
+  894  pwd
+  895  vi ~/yaaay
+  896  cd
+  897  cd fast_dp/
+  898  ll
+  899  cd
+  900  cd Collins_executables/
+  901  vi run_c4_1
+  902  tail run_c4_1
+  903  head run_c4_1
+  904  vi run_c4_1
+  905  vi ~/yaaay
+  906  head run_c4_1
+  907  vi ~/yaaay
+  908  chmod +x ~/yaaay
+  909  cd
+  910  mv yaaay ./cbf_test_fdp
+  911  ll
+  912  clr
+  913  ./cbf_test_fdp 
+  914  clr
+  915  ll
+  916  vi cbf_test_fdp 
+  917  ./cbf_test_fdp 
+  918  ll /GPFS/CENTRAL/xf17id1/hbernstein/ncbfs/fdp/level1/level2/level3/level4/data/xtext_000002_000001.cbf
+  919  ll /GPFS/CENTRAL/xf17id1/hbernstein/ncbfs/fdp/level1/level2/level3/level4/data/
+  920  vi cbf_test_fdp 
+  921  ./cbf_test_fdp 
+  922  ll
+  923  rm fast_dp.*
+  924  ll
+  925  cd 000002/
+  926  ll
+  927  cd
+  928  rm -rf 000002
+  929  ll
+  930  cd xtext_cbf/
+  931  ll
+  932  cd 000001
+  933  ll
+  934  cd ..
+  935  cat fast_dp.error 
+  936  clr
+  937  cd
+  938  clr
+  939  cd ..
+  940  ll
+  941  cd hbernstein/
+  942  find ./ -name '*.cbf'
+  943  cd /GPFS
+  944  ll
+  945  cd CENTRAL/
+  946  ll
+  947  cd xf05id1/
+  948  ll
+  949  cd home/
+  950  ll
+  951  cd xf05id1/
+  952  ll
+  953  cd ..
+  954  ll
+  955  cd ..
+  956  ll
+  957  cd xf17id1
+  958  ll
+  959  cd mx999999-38/
+  960  ll
+  961  cd A001/
+  962  ll
+  963  cdcd
+  964  cd
+  965  clr
+  966  vi cbf_test_fdp 
+  967  ./cbf_test_fdp 
+  968  cd fast_dp/
+  969  ll
+  970  find ./ -name 'aimless_wrapper'
+  971  cd bin
+  972  vi aimless_wrapper 
+  973  which aimless
+  974  aimless --help
+  975  cd ..
+  976  grep -irn "cctbx" ./
+  977  which cctbx
+  978  which cctbx.python
+  979  cd
+  980  cd Collins_Tests/
+  981  ll
+  982  cd c5_1/
+  983  ll
+  984  cd 1
+  985  ll
+  986  cat pointless.
+  987  cat pointless.log 
+  988  cat pointless.xml 
+  989  ll
+  990  cat scales.pck 
+  991  clr
+  992  ll
+  993  file ROGUEPLOT 
+  994  vi ROGUEPLOT 
+  995  cat NORMPLOT 
+  996  ll
+  997  cat CORRELPLOT 
+  998  ll
+  999  cat aimless.log 
+ 1000  grep -irn 'reference' ./
+ 1001  ll
+ 1002  cat XDS.INP
+ 1003  cat XDS.INP.REDO 
+ 1004  cp XDS.INP.REDO ../XDS.INP
+ 1005  cd ..
+ 1006  ll
+ 1007  mkdir xds
+ 1008  mv XDS.INP ./xds/
+ 1009  ll
+ 1010  cd xds
+ 1011  vi XDS.INP 
+ 1012  xds
+ 1013  time xds
+ 1014  ll
+ 1015  vi XDS_ASCII.HKL 
+ 1016  cat SPOT.XDS 
+ 1017  vi SPOT.XDS 
+ 1018  ll
+ 1019  clr
+ 1020  ll
+ 1021  cat fast_dp.error 
+ 1022  rm fast_dp.*
+ 1023  clr
+ 1024  ll
+ 1025  clr
+ 1026  du -sh
+ 1027  du -s
+ 1028  du -h
+ 1029  clr
+ 1030  ll
+ 1031  cd Collins_Tests/
+ 1032  ll
+ 1033  cd ..
+ 1034  cd Collins_executables/
+ 1035  ll
+ 1036  vi run_c5_1 
+ 1037  ./run_c5_1
+ 1038  cp run_c5_1 ./new_run_c5_1
+ 1039  vi new_run_c5_1 
+ 1040  ./new_run_c5_1 
+ 1041  top
+ 1042  ./new_run_c5_1 
+ 1043  ll
+ 1044  vi run_c5_2 
+ 1045  vi run_c5_3
+ 1046  vi run_c7_1 
+ 1047  vi run_c7_3
+ 1048  cp run_c7_3 ./new_run_c7_3
+ 1049  vi new_run_c7_3 
+ 1050  vi new_run_c5_1 
+ 1051  vi new_run_c7_3 
+ 1052  ./new_run_c7_3 
+ 1053  cp run_c7_9 ./new_run_c7_5
+ 1054  vi new_run_c7_5 
+ 1055  ./new_run_c7_5 
+ 1056  clr
+ 1057  cd
+ 1058  cd Collins_Tests/
+ 1059  ll
+ 1060  cd c5_1/
+ 1061  ll
+ 1062  cd 1
+ 1063  ll
+ 1064  cd ..
+ 1065  ll
+ 1066  cd ..
+ 1067  ll
+ 1068  cd c7_3/
+ 1069  ll
+ 1070  cd 1
+ 1071  ll
+ 1072  cat fast_dp.log 
+ 1073  clr
+ 1074  ll
+ 1075  cat XDS_ASCII.HKL 
+ 1076  clr
+ 1077  ll
+ 1078  mkdir blend
+ 1079  cp fast_dp_unmerged.mtz ./blend/
+ 1080  cd blend/
+ 1081  pwd
+ 1082  pwd > original.dat
+ 1083  ll
+ 1084  vi original.dat 
+ 1085  rm fast_dp_unmerged.mtz 
+ 1086  blend -a original.dat 
+ 1087  vi original.dat 
+ 1088  blend -a original.dat 
+ 1089  ll
+ 1090  vi BLEND_SUMMARY.txt 
+ 1091  vi NEW_list_of_files.dat 
+ 1092  vi mtz_names.dat 
+ 1093  cd ..
+ 1094  rm -rf blend
+ 1095  cd ..
+ 1096  ll
+ 1097  vi original.dat 
+ 1098  rm original.dat 
+ 1099  find . -name "fast_dp_unmerged.mtz"
+ 1100  find . -name "fast_dp_unmerged.mtz" > original.dat
+ 1101  vi original.dat 
+ 1102  mkdir blend
+ 1103  cp original.dat ./blend/
+ 1104  cd blend/
+ 1105  ll
+ 1106  blend -a original.dat 
+ 1107  vi original.dat 
+ 1108  pwd
+ 1109  vi original.dat 
+ 1110  blend -a original.dat 
+ 1111  ll
+ 1112  vi CLUSTERS.txt 
+ 1113  eog tree.png
+ 1114  clr
+ 1115  ll
+ 1116  crystals_blend -h
+ 1117  tail CLUSTERS.txt 
+ 1118  blend -s 29
+ 1119  clr
+ 1120  ll
+ 1121  cd merged_files/
+ 1122  ll
+ 1123  cat MERGING_STATISTICS.info 
+ 1124  clr
+ 1125  cd ..
+ 1126  ll
+ 1127  clr
+ 1128  ipy
+ 1129  ipython
+ 1130  clr
+ 1131  cd
+ 1132  clr
+ 1133  ipython
+ 1134  python
+ 1135  clr
+ 1136  ll
+ 1137  rm jdiaz_Collins_Tests_fast_dp.*
+ 1138  clr
+ 1139  ll
+ 1140  cd Collins_Tests/
+ 1141  ll
+ 1142  cd ../Collins_executables/
+ 1143  clr
+ 1144  cp run_c6_2 ./new_run_c6_2
+ 1145  vi new_run_c6_2
+ 1146  ./new_run_c6_2
+ 1147  ./run_c6_2 
+ 1148  cd
+ 1149  cd fast_dp/
+ 1150  git pull origin master
+ 1151  git status
+ 1152  git checkout master
+ 1153  git pull origin master
+ 1154  branch -D import
+ 1155  git checkout branch -D import
+ 1156  git branch -D import
+ 1157  git branch
+ 1158  git branch -D unit_tests
+ 1159  clr
+ 1160  ll
+ 1161  grep -irn "print" ./
+ 1162  grep -irn "raise" ./
+ 1163  clr
+ 1164  ll
+ 1165  rm jdiaz_Collins_Tests_fast_dp.*
+ 1166  ll
+ 1167  cd 000002/
+ 1168  ll
+ 1169  cd ..
+ 1170  rm -rf 0000002
+ 1171  ll
+ 1172  rm -rf 000002
+ 1173  ll
+ 1174  clr
+ 1175  ll
+ 1176  clr
+ 1177  cd Collins_executables/
+ 1178  ll
+ 1179  mkdir ../new_collins_execs
+ 1180  mv new_run_c5_1 ../new_collins_execs/
+ 1181  mv new_run_c6_2 ../new_collins_execs/
+ 1182  mv new_run_c7_3 ../new_collins_execs/
+ 1183  mv new_run_c7_5 ../new_collins_execs/
+ 1184  ll
+ 1185  vi run_c4_1 
+ 1186  vi run_c4_2
+ 1187  vi run_c4_3
+ 1188  vi run_c5_1
+ 1189  vi run_c5_2
+ 1190  vi run_c5_3
+ 1191  vi run_c5_4
+ 1192  vi run_c5_5
+ 1193  vi run_c5_6
+ 1194  vi run_c6_1
+ 1195  vi run_c6_2
+ 1196  vi run_c6_3
+ 1197  vi run_c6_4
+ 1198  vi run_c6_5
+ 1199  vi run_c6_6
+ 1200  vi run_c7_1
+ 1201  vi run_c7_2
+ 1202  vi run_c7_3
+ 1203  vi run_c7_4
+ 1204  vi run_c7_5
+ 1205  vi run_c7_6
+ 1206  vi run_c7_7
+ 1207  vi run_c7_8
+ 1208  vi run_c7_9
+ 1209  clear
+ 1210  ll
+ 1211  clr
+ 1212  ll
+ 1213  clr
+ 1214  cd Collins_executables/
+ 1215  ll
+ 1216  ./run-parts
+ 1217  run-parts ./
+ 1218  ll /mnt/optane/
+ 1219  ll /mnt/optane
+ 1220  ls /mnt/optane
+ 1221  ls -alh /mnt/optane
+ 1222  ls -alh /mnt/optane/hbernstein/
+ 1223  ls -alh /mnt/optane/hbernstein/CollinsLaccases/
+ 1224  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/
+ 1225  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/Merge
+ 1226  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/MergeFastDP/
+ 1227  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/CataApo04/
+ 1228  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/CataApo04/191/
+ 1229  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/CataApo04/191/BNLtest01a_1/
+ 1230  ls -alh /mnt/optane/hbernstein/CollinsLaccases/data/CataApo04/191/BNLtest01a_1/cbfs/
+ 1231  run-parts ./
+ 1232  vi ~/.bashrc
+ 1233  lout
+ 1234  clr
+ 1235  ll
+ 1236  rm jdiaz_Collins_Tests_fast_dp.*
+ 1237  ll
+ 1238  clr
+ 1239  cwhich fast_dp/
+ 1240  which fast_dp 
+ 1241  cd Collins_Tests/
+ 1242  ll
+ 1243  clr
+ 1244  cd ../Collins_executables/
+ 1245  ll
+ 1246  clr
+ 1247  run-parts ./
+ 1248  cd ../fast_dp/
+ 1249  git pull origin master
+ 1250  cd ../zero_fast_dp/
+ 1251  git pull origin master
+ 1252  ll
+ 1253  cd ..
+ 1254  cd fast_dp/
+ 1255  ll
+ 1256  vi ~/.bashrc
+ 1257  lout
+ 1258  clr
+ 1259  cd Collins_executables/
+ 1260  run-parts ./
+ 1261  vi ~/.bashrc
+ 1262  lout
+ 1263  ll /usr/local/crys-local/
+ 1264  ll /mnt/optane/hbernstein/CollinsLaccases/data/CataApo04/191/BNLtest01a_1/cbfs/
+ 1265  albula --help
+ 1266  adxv --help
+ 1267  clr
+ 1268  run-parts ./Collins_executables/
+ 1269  ll
+ 1270  rm jdiaz_Collins_Tests_fast_dp.*
+ 1271  ll
+ 1272  clr
+ 1273  ll
+ 1274  cd ..
+ 1275  find ./ -name 'adxv'
+ 1276  clr
+ 1277  cd
+ 1278  cal 2019
+ 1279  arch
+ 1280  clr
+ 1281  wget https://www.scripps.edu/tainer/arvai/adxv/adxv_1.9.14/adxv.i686CentOS5
+ 1282  ll
+ 1283  mv adxv.i686CentOS5 ./adxv
+ 1284  file adxv
+ 1285  adxv --help
+ 1286  ll /usr/bin
+ 1287  clr
+ 1288  mkdir bin
+ 1289  ll
+ 1290  mv adxv ./bin/
+ 1291  ll
+ 1292  vi ./bashrc
+ 1293  clr
+ 1294  vi ~/.bashrc
+ 1295  lout
+ 1296  clr
+ 1297  ll
+ 1298  which adxv
+ 1299  cd bin
+ 1300  ll
+ 1301  ll -alh
+ 1302  chmod +x adxv
+ 1303  ll
+ 1304  which adxv
+ 1305  adxv --help
+ 1306  adxv -help
+ 1307  adxv
+ 1308  ll
+ 1309  cd
+ 1310  lout
+ 1311  adxv
+ 1312  lout
+ 1313  ll /usr/bin
+ 1314  ll /usr/local/bin
+ 1315  ll /usr/local/bin/
+ 1316  clr
+ 1317  ll
+ 1318  cd bin
+ 1319  ll
+ 1320  which albula
+ 1321  ./adxv
+ 1322  ll
+ 1323  ll -alh
+ 1324  cd ..
+ 1325  ll
+ 1326  cd bin
+ 1327  rm -rf adxv
+ 1328  ll
+ 1329  cd
+ 1330  clr
+ 1331  ll
+ 1332  cat TODO 
+ 1333  cd xtext_cbf/
+ 1334  ll
+ 1335  cd 000001
+ 1336  ll
+ 1337  cd ..
+ 1338  ll
+ 1339  cd ..
+ 1340  l
+ 1341  ll
+ 1342  cat timelog 
+ 1343  rm timelog 
+ 1344  ll
+ 1345  clr
+ 1346  ll
+ 1347  cd bin/
+ 1348  ll
+ 1349  cd .
+ 1350  cd ..
+ 1351  ll
+ 1352  rm bin
+ 1353  rm -rf bin
+ 1354  ll
+ 1355  clr
+ 1356  ll
+ 1357  cd Collins_executables/
+ 1358  ll
+ 1359  vi run_c4_1 
+ 1360  cd
+ 1361  mkdir spot_finder_test
+ 1362  cd spot_finder_test/
+ 1363  ll
+ 1364  clr
+ 1365  dials.find_spots /mnt/optane/hbernstein/CollinsLaccases/data/CataApo04/191/BNLtest01a_1/Lys01_901_master.h5 
+ 1366  which xds-viewer
+ 1367  which xdsviewer
+ 1368  xdsviewer
+ 1369  xds-viewer
+ 1370  ll
+ 1371  cat dials.find_spots.log 
+ 1372  ll
+ 1373  cat strong.pickle 
+ 1374  clr
+ 1375  ll
+ 1376  dials.find_spots --help
+ 1377  which adxv
+ 1378  xds-viewer
+ 1379  xdsviewer
+ 1380  cd
+ 1381  ll
+ 1382  arch
+ 1383  ll
+ 1384  clr
+ 1385  wget https://www.scripps.edu/tainer/arvai/adxv/adxv_1.9.14/adxv.i686CentOS6
+ 1386  ll
+ 1387  chmod +x adxv.i686CentOS6 
+ 1388  ll
+ 1389  mkdir adxv
+ 1390  mv adxv.i686CentOS6 ./adxv/adxv
+ 1391  cd adxv
+ 1392  ll
+ 1393  file adxv
+ 1394  ll -alh
+ 1395  vi ~/.bashrc
+ 1396  lout
+ 1397  ll
+ 1398  clr
+ 1399  which adxv
+ 1400  cd adxv
+ 1401  adxv
+ 1402  ./adxv
+ 1403  bash /home/jdiaz/adxv/adxv
+ 1404  wget https://www.scripps.edu/tainer/arvai/adxv/adxv_1.9.14/adxv.x86_64CentOS6
+ 1405  ll
+ 1406  rm adxv
+ 1407  chmod +x adxv.x86_64CentOS6 
+ 1408  cd
+ 1409  ll
+ 1410  ln --help
+ 1411  ln -s adxv/adxv.x86_64CentOS6 adxv
+ 1412  ln -s adxv/adxv.x86_64CentOS6 ./adxv
+ 1413  rm -rf adxv
+ 1414  wget https://www.scripps.edu/tainer/arvai/adxv/adxv_1.9.14/adxv.x86_64CentOS6
+ 1415  ln -s ./adxv.x86_64CentOS6 ./adxv
+ 1416  ll
+ 1417  chmod +x adxv.x86_64CentOS6 
+ 1418  clr
+ 1419  ll
+ 1420  mkdir ad_test
+ 1421  cd ad_test/
+ 1422  ~/adxv
+ 1423  cat ~/Collins_executables/run_c4_1 
+ 1424  ~/adxv
+ 1425  ~/adxv /mnt/optane/hbernstein/CollinsLacasses/data/CataApo04/191BNLtest01a_1/Lys01_901_master.h5
+ 1426  ll
+ 1427  cd
+ 1428  ll
+ 1429  cd spot_finder_test/
+ 1430  ll
+ 1431  which python > process_pickle.py
+ 1432  vi process_pickle.py 
+ 1433  chmod +x process_pickle.py 
+ 1434  vi process_pickle.py 
+ 1435  ./process_pickle.py 
+ 1436  vi process_pickle.py 
+ 1437  ll
+ 1438  vi process_pickle.py 
+ 1439  ./process_pickle.py 
+ 1440  vi process_pickle.py 
+ 1441  ./process_pickle.py 
+ 1442  vi process_pickle.py 
+ 1443  ./process_pickle.py 
+ 1444  ipytohn
+ 1445  ipython
+ 1446  vi process_pickle.py 
+ 1447  ipython
+ 1448  ./process_pickle.py 
+ 1449  vi process_pickle.py 
+ 1450  ll
+ 1451  clr
+ 1452  ll
+ 1453  dials.
+ 1454  dials.image_viewer strong.pickle 
+ 1455  ll
+ 1456  head dials.find_spots.log 
+ 1457  more dials.find_spots.log 
+ 1458  hy
+ 1459  eiger2cbf --help
+ 1460  eiger2cbf
+ 1461  ll
+ 1462  vi process_pickle.py 
+ 1463  ./process_pickle.py 
+ 1464  dials.image_viewer --help
+ 1465  ll
+ 1466  cat dials.find_spots.log 
+ 1467  ll
+ 1468  clr
+ 1469  ll
+ 1470  which xds
+ 1471  cd
+ 1472  ll
+ 1473  logout
+ 1474  cat xds_Collins/
+ 1475  clr
+ 1476  which xds
+ 1477  cd xds_Collins/
+ 1478  ll
+ 1479  vi xds_c4_1 
+ 1480  cat ~/Collins_executables/run_c4_1 
+ 1481  vi xds_c4_1 
+ 1482  ll
+ 1483  run-parts 
+ 1484  run-parts ./
+ 1485  ll
+ 1486  cd 1
+ 1487  ll
+ 1488  vi CORRECT.LP 
+ 1489  vi XDS.INP 
+ 1490  cd
+ 1491  ll
+ 1492  cd xds_Collins/
+ 1493  ll
+ 1494  vi xds_c4_1 
+ 1495  ./xds_c4_1 
+ 1496  vi xds_c4_1 
+ 1497  ./xds_c4_1 
+ 1498  vi xds_c4_1 
+ 1499  ./xds_c4_1 
+ 1500  vi xds_c4_1 
+ 1501  ./xds_c4_1 
+ 1502  ll
+ 1503  vi xds_c4_1 
+ 1504  cd
+ 1505  cd fast_dp/
+ 1506  ll
+ 1507  cd
+ 1508  clr
+ 1509  ll
+ 1510  cd xds_Collins/
+ 1511  ll
+ 1512  cd
+ 1513  cd xds_Collins/
+ 1514  ll
+ 1515  cd 1
+ 1516  ll
+ 1517  vi XDS.INP 
+ 1518  xds
+ 1519  clr
+ 1520  ll
+ 1521  clr
+ 1522  which fast_dp
+ 1523  vi ~/.bashrc
+ 1524  lout
+ 1525  clr
+ 1526  run-parts Collins_executables/
+ 1527  cctbx.python --version
+ 1528  ll
+ 1529  pylint
+ 1530  cd fast_dp/
+ 1531  cd src/
+ 1532  pylint --py3k
+ 1533  ll
+ 1534  pylint --py3k autoindex.py 
+ 1535  vi autoindex.py
+ 1536  pylint --py3k autoindex.py 
+ 1537  ll
+ 1538  pylint --py3k fast_dp.py 
+ 1539  vi fast_dp.py 
+ 1540  pylint --py3k fast_dp.py 
+ 1541  vi fast_dp.py 
+ 1542  vi fast_rdp.py 
+ 1543  pylint --py3k fast_rdp.py 
+ 1544  vi fast_rdp.py 
+ 1545  pylint --py3k fast_rdp.py 
+ 1546  ll
+ 1547  pylint --py3k header2edna_xml.py 
+ 1548  vi header2edna_xml.py 
+ 1549  pylint --py3k header2edna_xml.py 
+ 1550  ll
+ 1551  pylint --py3k integrate.py 
+ 1552  vi integrate.py
+ 1553  pylint --py3k integrate.py 
+ 1554  ll
+ 1555  pylint --py3k logger.py 
+ 1556  vi logger.py
+ 1557  pylint --py3k logger.py 
+ 1558  ll
+ 1559  pylint --py3k merge.py
+ 1560  vi merge.py
+ 1561  pylint --py3k merge.py
+ 1562  ll
+ 1563  pylint --py3k pointgroup.py 
+ 1564  vi pointgroup.py
+ 1565  pylint --py3k pointgroup.py 
+ 1566  ll
+ 1567  pylint --py3k scale.py 
+ 1568  vi scale.py
+ 1569  pylint --py3k scale.py 
+ 1570  ll
+ 1571  cd ..
+ 1572  cd lib/
+ 1573  ll
+ 1574  clr
+ 1575  pylint --py3k cell_spacegroup.py 
+ 1576  vi cell_spacegroup.py
+ 1577  pylint --py3k cell_spacegroup.py 
+ 1578  ll
+ 1579  pylint --py3k image_names.py 
+ 1580  vi image_names.py
+ 1581  pylint --py3k image_names.py 
+ 1582  ll
+ 1583  pylint --py3k image_readers.py
+ 1584  vi image_readers.py
+ 1585  pylint --py3k image_readers.py
+ 1586  vi image_readers.py
+ 1587  pylint --py3k image_readers.py
+ 1588  vi image_readers.py
+ 1589  pylint --py3k image_readers.py
+ 1590  ll
+ 1591  pylint --py3k output.py 
+ 1592  ll
+ 1593  pylint --py3k pointless_reader.py 
+ 1594  vi pointless_reader.py
+ 1595  pylint --py3k pointless_reader.py 
+ 1596  ll
+ 1597  pylint --py3k run_job.py 
+ 1598  vi run_job.py
+ 1599  pylint --py3k run_job.py 
+ 1600  ll
+ 1601  pylint --py3k xds_reader.py 
+ 1602  vi xds_reader.py
+ 1603  pylint --py3k xds_reader.py 
+ 1604  vi xds_reader.py
+ 1605  pylint --py3k xds_reader.py 
+ 1606  ll
+ 1607  pylint --py3k xds_writer.py 
+ 1608  vi xds_writer.py
+ 1609  pylint --py3k xds_writer.py 
+ 1610  vi xds_writer.py
+ 1611  pylint --py3k xds_writer.py 
+ 1612  vi xds_writer.py
+ 1613  ll
+ 1614  cd ..
+ 1615  ll
+ 1616  git status
+ 1617  git checkout -b removed_lint
+ 1618  git status
+ 1619  git add .
+ 1620  git commit -m 'ENH: Removed lint from source code by using pylint. --JD'
+ 1621  git push origin removed_lint
+ 1622  clr
+ 1623  ll
+ 1624  git status
+ 1625  git checkout master
+ 1626  git merge master removed_lint
+ 1627  cd lib/
+ 1628  head cell_spacegroup.py
+ 1629  vi cell_spacegroup.py
+ 1630  cd ..
+ 1631  ll
+ 1632  git push origin master
+ 1633  clr
+ 1634  ll
+ 1635  cd ..
+ 1636  ll
+ 1637  rm jdiaz_Collins_Tests_fast_dp.*
+ 1638  ll
+ 1639  clr
+ 1640  ll
+ 1641  cd CBFlib-0.9.6/
+ 1642  ll
+ 1643  clr
+ 1644  cd dREL-ply-0.5/
+ 1645  ll
+ 1646  vi TestDrel.py 
+ 1647  vi drel_lex.py 
+ 1648  logout
+ 1649  clr
+ 1650  du -sh
+ 1651  du -h
+ 1652  clr
+ 1653  cd CBFlib-0.9.6/
+ 1654  ll
+ 1655  cd doc/
+ 1656  ll
+ 1657  cd testing_area/
+ 1658  ll
+ 1659  cif2cbf -5w -i iz3004.cif -o first.h5
+ 1660  run gdb
+ 1661  gdb run
+ 1662  gdb cif2cbf
+ 1663  cd
+ 1664  ll
+ 1665  git clone https://github.com/jorgediazjr/cbflib.git
+ 1666  cd cbflib/
+ 1667  ll
+ 1668  cd src/
+ 1669  ll
+ 1670  cd ..
+ 1671  clr
+ 1672  make
+ 1673  make install
+ 1674  ll
+ 1675  cd doc/
+ 1676  ll
+ 1677  cd ..
+ 1678  rm -rf CBFlib-0.9.6/
+ 1679  cd cbflib/
+ 1680  git branch
+ 1681  git checkout -b 'check_category_name'
+ 1682  git branch
+ 1683  cd doc
+ 1684  mkdir testing_area
+ 1685  cp iz3004.cif ./testing_area/;cd testing_area/
+ 1686  clr
+ 1687  ll
+ 1688  gdb cif2cbf
+ 1689  vi ~/.bashrc
+ 1690  lout
+ 1691  clr
+ 1692  cd cbflib/doc/testing_area/
+ 1693  clr
+ 1694  gdb cif2cbf
+ 1695  vi ../../src/cbf_tree.c 
+ 1696  cd ..
+ 1697  cp src/cbf_tree.c ~/
+ 1698  make distclean
+ 1699  make install
+ 1700  which cif2cbf
+ 1701  cd doc/testing_area/
+ 1702  ll
+ 1703  gdb cif2cbf
+ 1704  cd ..
+ 1705  cd src/
+ 1706  ll
+ 1707  vi cbf_tree.c 
+ 1708  cd ../doc/testing_area/
+ 1709  clr
+ 1710  gdb cif2cbf
+ 1711  vi ../../src/cbf_hdf5.c 
+ 1712  clr
+ 1713  cd cbflib/
+ 1714  cd doc/
+ 1715  cd testing_area/
+ 1716  ll
+ 1717  gdb cif2cbf
+ 1718  cd ..
+ 1719  cd testing_area/
+ 1720  vi ../../src/cbf_tree.c 
+ 1721  gdb cif2cbf
+ 1722  vi ../../src/cbf_hdf5.c 
+ 1723  cd ..
+ 1724  make
+ 1725  make clean
+ 1726  make install
+ 1727  ll lib
+ 1728  cd doc/testing_area/
+ 1729  ll
+ 1730  gdb cif2cbf
+ 1731  lout
+ 1732  clr
+ 1733  ll
+ 1734  cd include/
+ 1735  ll
+ 1736  cd cbflib
+ 1737  ll
+ 1738  cd ..
+ 1739  ll
+ 1740  cd ..
+ 1741  ll
+ 1742  ll bin
+ 1743  cd
+ 1744  clr
+ 1745  ll
+ 1746  ll bin
+ 1747  clr
+ 1748  ll
+ 1749  ll lib
+ 1750  mv lib ./cbflib
+ 1751  mv -r lib ~/cbflib/
+ 1752  mv --help
+ 1753  mv lib ~/cbflib/lib
+ 1754  clr
+ 1755  ll
+ 1756  mv bin ./cbflib/bin
+ 1757  clr
+ 1758  ll
+ 1759  ll include
+ 1760  mv include cbflib/include
+ 1761  ll
+ 1762  clr
+ 1763  ll
+ 1764  cd ncdist/
+ 1765  ll
+ 1766  cd build/
+ 1767  ll
+ 1768  cd ..
+ 1769  cd cmake/
+ 1770  ll
+ 1771  cd modules/
+ 1772  ll
+ 1773  cd ..
+ 1774  cd
+ 1775  ll
+ 1776  cd new_collins_execs/
+ 1777  ll
+ 1778  cd
+ 1779  ll share
+ 1780  mv share cbflib/share
+ 1781  clr
+ 1782  ll
+ 1783  cd spot_finder_test/
+ 1784  ll
+ 1785  clr
+ 1786  cat dials.find_spots.
+ 1787  cat dials.find_spots.log 
+ 1788  which dials.find_spots
+ 1789  file /home/hbernstein/dials/build/bin/dials.find_spots
+ 1790  vi /home/hbernstein/dials/build/bin/dials.find_spots
+ 1791  ll
+ 1792  clr
+ 1793  dials.spots_counts_per_image
+ 1794  dials.spot_counts_per_image strong.pickle 
+ 1795  dials.export strong.pickle format=xds
+ 1796  clr
+ 1797  ll
+ 1798  cd xds
+ 1799  ll
+ 1800  vi SPOT.XDS 
+ 1801  ll
+ 1802  vi SPOT.XDS 
+ 1803  cd
+ 1804  cd Collins_Tests/
+ 1805  ll
+ 1806  cd c5_1/
+ 1807  ll
+ 1808  cd 1
+ 1809  ll
+ 1810  vi SPOT.XDS 
+ 1811  cd
+ 1812  ll
+ 1813  cd spot_finder_test/
+ 1814  ll
+ 1815  cd xds
+ 1816  vi SPOT.XDS 
+ 1817  vi plot_spots.py
+ 1818  which python > plot_spots.py;vi plot_spots.py
+ 1819  chmod +x plot_spots.py 
+ 1820  vi plot_spots.py
+ 1821  head SPOT.XDS 
+ 1822  vi plot_spots.py
+ 1823  ./plot_spots.py 
+ 1824  pip install matplotlib
+ 1825  ./plot_spots.py 
+ 1826  pip uninstall matplotlib
+ 1827  which python
+ 1828  ll
+ 1829  vi plot_spots.py 
+ 1830  pwd
+ 1831  logout
+ 1832  clear
+ 1833  ll
+ 1834  cd spot_finder_test/
+ 1835  clear
+ 1836  dials.find_spots
+ 1837  ll
+ 1838  clr
+ 1839  ll
+ 1840  cd spot_finder_test/
+ 1841  ll
+ 1842  mkdir c4_1
+ 1843  mv dials.export.debug.log dials.export.log dials.find_spots.log dials.find_spots.debug.log process_pickle.py strong.pickle ./c4_1/
+ 1844  mv xds/ ./c4_1/xds
+ 1845  ll
+ 1846  mv c4_1/ ./c4_1_1
+ 1847  mkdir c4_1_13
+ 1848  cd c4_1_13/
+ 1849  cat ~/Collins_executables/run_c4_1 
+ 1850  cat ~/Collins_executables/run_c5_1
+ 1851  echo /mnt/optane/hbernstein/CollinsLaccases/data/ > new_file
+ 1852  cat new_file 
+ 1853  vi new_file 
+ 1854  mv new_file ./paths
+ 1855  vi paths 
+ 1856  which bash
+ 1857  vi paths 
+ 1858  cd
+ 1859  mkdir Collins_dials_find_spots
+ 1860  cd spot_finder_test/
+ 1861  ll
+ 1862  cd c4_1_13
+ 1863  mv paths ~/collins_find_spots
+ 1864  cd
+ 1865  ll
+ 1866  ll -alh collins_find_spots
+ 1867  chmod +x collins_find_spots 
+ 1868  ll -alh collins_find_spots
+ 1869  clr
+ 1870  ll
+ 1871  ./collins_find_spots 
+ 1872  vi collins_find_spots 
+ 1873  ./collins_find_spots 
+ 1874  cd Collins_dials_find_spots/
+ 1875  ll
+ 1876  cd c4_1/
+ 1877  ll
+ 1878  clr
+ 1879  ll
+ 1880  cd xds
+ 1881  ll
+ 1882  wc -l SPOT.XDS 
+ 1883  cd ..
+ 1884  cd c5_1/
+ 1885  ll
+ 1886  cd xds
+ 1887  ll
+ 1888  wc -l SPOT.XDS 
+ 1889  vi SPOT.XDS 
+ 1890  logout
+ 1891  clr
+ 1892  which 2to3
+ 1893  cp fast_dp/ ./test_fast_dp
+ 1894  cp -r fast_dp/ ./test_fast_dp
+ 1895  clr
+ 1896  ll
+ 1897  cd test_fast_dp/
+ 1898  ll
+ 1899  ll -alh
+ 1900  rm .git .gitignore
+ 1901  rm -rf .git .gitignore
+ 1902  clr
+ 1903  ll -alh
+ 1904  clr
+ 1905  cd src/
+ 1906  ll
+ 1907  rm *.pyc
+ 1908  ll
+ 1909  clr
+ 1910  2to3 --help
+ 1911  ll -alh /usr/local/crys-local/ccp4-7.0/libexec/
+ 1912  clr
+ 1913  ll
+ 1914  2to3 autoindex.py 
+ 1915  which python
+ 1916  whic python --version
+ 1917  which python --version
+ 1918  /home/hbernstein/dials/build/bin/python --version
+ 1919  clear
+ 1920  cd
+ 1921  ll
+ 1922  2to3
+ 1923  clr
+ 1924  cd ../..
+ 1925  ll
+ 1926  cd ..
+ 1927  cd usr
+ 1928  ll
+ 1929  find . -name '2to3'
+ 1930  cd /local/crys-local/ccp4-7.0/libexec/2to3
+ 1931  cd /local/crys-local/ccp4-7.0/libexec
+ 1932  cd local/crys-local/ccp4-7.0/libexec
+ 1933  pwd
+ 1934  ll
+ 1935  vi ~/.bashrc
+ 1936  clr
+ 1937  cd
+ 1938  clr
+ 1939  ll
+ 1940  clr
+ 1941  logout
+ 1942  clr
+ 1943  ll
+ 1944  which 2to3
+ 1945  pip install 2to3
+ 1946  cd /usr/local/crys-local/ccp4-7.0/
+ 1947  ll
+ 1948  cd li
+ 1949  cd lib
+ 1950  ll
+ 1951  cd python2.7/
+ 1952  ll
+ 1953  clr
+ 1954  ll
+ 1955  cd
+ 1956  clr
+ 1957  which 2to3
+ 1958  which python
+ 1959  vi ~/.bashrc
+ 1960  lout
+ 1961  clr
+ 1962  which python
+ 1963  2to3 --help
+ 1964  ll /opt/xtal/ccp4-7.0-linux64/libexec
+ 1965  ll /opt/xtal/ccp4-7.0-linux64/libexec/
+ 1966  ll /opt
+ 1967  cd /opt
+ 1968  ll
+ 1969  cd /xtal
+ 1970  clear
+ 1971  cd
+ 1972  clr
+ 1973  ll
+ 1974  cd fast_dp/
+ 1975  cd src
+ 1976  vi logger.py
+ 1977  git status
+ 1978  cd ../lib
+ 1979  vi image_readers.py
+ 1980  ll
+ 1981  rm *.pyc
+ 1982  vi image_readers.py 
+ 1983  cd
+ 1984  clr
+ 1985  cd fast_dp/
+ 1986  grep -irn ').format' .
+ 1987  cd src/
+ 1988  vi fast_rdp.py 
+ 1989  git status
+ 1990  grep -irn 'RuntimeError' .
+ 1991  cd ../lib
+ 1992  grep -irn 'RuntimeError' .
+ 1993  vi xds_writer.py 
+ 1994  ll
+ 1995  cd ..
+ 1996  git checkout -b review_1
+ 1997  git status
+ 1998  git add .
+ 1999  git commit -m 'ENH: Made proper code updates. --JD'
+ 2000  git push origin review_1
+ 2001  ll
+ 2002  clr
+ 2003  ll
+ 2004  cd spot_finder_test/
+ 2005  ll
+ 2006  cd c4_1_1
+ 2007  ll
+ 2008  cd ..
+ 2009  ll
+ 2010  cd c4_1_13/
+ 2011  ll
+ 2012  cat ~/Collins_Tests/
+ 2013  cat ~/Collins_executables/run_c4_1 
+ 2014  ll
+ 2015  cd ..
+ 2016  rm -rf c4_1_13/
+ 2017  mkdir c5_1
+ 2018  ll
+ 2019  mv c4_1_1/ ./c4_1
+ 2020  ll
+ 2021  cd c5_1/
+ 2022  dials.find_spots /mnt/optane/hbernstein/CollinsLaccases/data/CataApo05/5/NSLS2-18_10/CataApo05_1444_master.h5
+ 2023  dectris-neggia.so --help
+ 2024  dectris-neggia.so
+ 2025  eiger2cbf
+ 2026  eiger2cbf /mnt/optane/hbernstein/CollinsLaccases/data/CataApo05/5/NSLS2-18_10/CataApo05_1444_master.h5
+ 2027  dectris-neggia.so /mnt/optane/hbernstein/CollinsLaccases/data/CataApo05/5/NSLS2-18_10/CataApo05_1444_master.h5
+ 2028  ll /mnt/optane/hbernstein/CollinsLaccases/data/CataApo05/5/NSLS2-18_10/CataApo05_1444_master.h5
+ 2029  ll /mnt/optane/hbernstein/CollinsLaccases/data/CataApo05/5/NSLS2-18_10/
+ 2030  dials.find_spots
+ 2031  dials.find_spots /mnt/optane/hbernstein/CollinsLaccases/data/CataApo05/5/NSLS2-18_10/CataApo05_1444_master.h5
+ 2032  hy
+ 2033  hy > new_file

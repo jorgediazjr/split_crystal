@@ -166,7 +166,10 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
     ax.scatter(x_vals, y_vals, color='blue', s=0.1, alpha=1)
 
     # circles for different levels of distance
-    circle_5 = plt.Circle((1600, 1600), 1800, lw=0.3, color='b', fill=False)
+    circle_6 = plt.Circle((1600, 1600), 1800, lw=0.3, color='b', fill=False)
+    ax.add_artist(circle_5)
+
+    circle_5 = plt.Circle((1600, 1600), 1600, lw=0.3, color='b', fill=False)
     ax.add_artist(circle_5)
 
     circle_4 = plt.Circle((1600, 1600), 1400, lw=0.3, color='b', fill=False)
@@ -185,7 +188,6 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
     ax.add_artist(circle_0)
 
     ax.set_title(f.split('/')[4].upper())
-    fig.savefig(f.split('/')[4].upper() + '.png')
     show()
 
 
@@ -219,7 +221,6 @@ def main():
         plot_euclid_pairs(close_pairs, midpoints, pairs,
                           closest_pairs, final_closest_points, f)
         write_closest_pairs(f, closest_pairs)
-        break
 
 
 if __name__ == '__main__':
