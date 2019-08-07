@@ -191,19 +191,21 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
 def write_closest_pairs(f, closest_pairs):
     directory_to_write = '/CLOSE_SPOTS'
     filename = f.split('/')[5] + '_SPOT.XDS'
-    if os.path.isdir(os.getcwd() + directory_to_write):
-        os.chdir(os.getcwd() + directory_to_write)
+    current_dir = os.getcwd()
+    if os.path.isdir(current_dir + directory_to_write):
+        os.chdir(current_dir + directory_to_write)
         with open(filename, 'w+') as f:
             for x in closest_pairs:
                 for y in closest_pairs[x]:
                     f.write("{} {}\n".format(x, y))
     else:
-        os.mkdir(os.getcwd() + directory_to_write)
-        os.chdir(os.getcwd() + directory_to_write)
+        os.mkdir(current_dir + directory_to_write)
+        os.chdir(current_dir + directory_to_write)
         with open(filename, 'w+') as f:
             for x in closest_pairs:
                 for y in closest_pairs[x]:
                     f.write("{} {}\n".format(x, y))
+    os.chdir(current_dir)
 
 
 def main():
