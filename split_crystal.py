@@ -4,7 +4,6 @@ import time
 from matplotlib.pyplot import show
 import matplotlib.pyplot as plt
 from matplotlib import collections as mc
-import pylab as pl
 import os
 import collections
 import math
@@ -108,6 +107,7 @@ def find_closest_point_to_ea_point(midpoints):
     # these are for pairs of points that are closest
     final_closest_points = []
     min_distance = 217468273
+    pair = []
     for x1 in midpoints:
         y1 = midpoints[x1]
         for x2 in midpoints:
@@ -118,7 +118,8 @@ def find_closest_point_to_ea_point(midpoints):
                 if find_distance(p, q) <= min_distance:
                     min_distance = find_distance(p, q)
                     pair = [p, q]
-        final_closest_points.append(pair)
+        if pair:
+            final_closest_points.append(pair)
         min_distance = 217468273
     return final_closest_points
 
@@ -129,7 +130,7 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
     lc = mc.LineCollection(close_pairs,
                            colors=[(0, 0, 0, 1)],
                            linewidths=0.30)
-    fig, ax = pl.subplots()
+    fig, ax = plt.subplots(figsize=(6,6))
     ax.add_collection(lc)
 
     # these are the midpoints between close pairs
@@ -184,7 +185,7 @@ def plot_euclid_pairs(close_pairs, midpoints, pairs, closest_pairs,
     circle_0 = plt.Circle((1600, 1600), 50, lw=0.3, color='black', fill=False)
     ax.add_artist(circle_0)
 
-    ax.set_title(f.split('/')[5].upper())
+    ax.set_title(f)
     show()
 
 
@@ -209,11 +210,27 @@ def write_closest_pairs(f, closest_pairs):
 
 
 def main():
+    s_time = time.time()
     files = []
-    with open(os.getcwd() + '/spot_files', 'r') as f:
+    xds_spot = '/xds_spot_files'
+    dials_spot = '/dials_spot_files'
+    while True:
+        print("Which program do you want?\n1. {}\n2.{}".format(xds_spot,
+                                                               dials_spot))
+        choice = int(input())
+        if choice == 1:
+            program = xds_spot
+            index = 4
+            break
+        elif choice == 2:
+            program = dials_spot
+            index = 4
+            break
+
+    with open(os.getcwd() + program, 'r') as f:
         for line in f:
             files.append(line.replace('\n', ''))
-
+    files.sort()
     for f in files:
         message = '''
         *-----------------------*
@@ -221,7 +238,7 @@ def main():
         *\t{}\t\t*
         *-----------------------*
         '''
-        print(message.format(f.split('/')[5].upper()))
+        print(message.format(f.split('/')[index].upper()))
         start_time = time.time()
         pairs = read_spot_file(f)
         ordered_pairs = collections.OrderedDict(sorted(pairs.items()))
@@ -231,8 +248,11 @@ def main():
         end_time = time.time()
         print("TIME TAKEN: {:.3}s".format(end_time - start_time))
         plot_euclid_pairs(close_pairs, midpoints, pairs,
-                          closest_pairs, final_closest_points, f)
+                          closest_pairs, final_closest_points,
+                          f.split('/')[index].upper())
         write_closest_pairs(f, closest_pairs)
+    elapsed_time = time.strftime("%H:%M:%S", time.gmtime(time.time() - s_time))
+    print("TOTAL TIME: {}".format(elapsed_time))
 
 
 if __name__ == '__main__':
